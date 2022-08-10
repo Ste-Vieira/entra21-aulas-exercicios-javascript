@@ -1,3 +1,30 @@
+
+let escolha = prompt("Escolha a variável para executar:")
+console.log("1 - String");
+console.log("2 - Number");
+console.log("3 - Boolean");
+console.log("4 - Array");
+
+switch (escolha) {
+    case 1:
+        string();
+        break;
+    case 2:
+        number();
+        break;
+    case 3:
+        boolean();
+        break;
+    case 4:
+        array();
+        break;
+    default:
+        console.log("Opção inválida")
+        break;
+}
+
+
+
 function string() {
 
     let tempo = "Verão"
@@ -50,25 +77,3 @@ function array() {
         console.log("Utilizando forEach para listar " + item);
     });
 }
-
-
-
-
-
-
-// Crie uma variável para cada tipo existente com let ou var
-// string
-// number
-// boolean
-// array
-// object json
-// function
-// Exiba em log o valor de cada variável e o tipo da variável com typeof(variável)
-// Para cada variável faça um IF que tome uma decisão e também no ELSE
-// Para uma variável string e number, faça um switch que tome uma decisão
-// Para uma variável do tipo array, faça as repetições possíveis
-// for com índice
-// foreach
-// Se cada exercício anterior foi feito de forma unica no arquivo JS, separe-os em funções especificas
-
-// let numero = 
