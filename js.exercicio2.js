@@ -8,3 +8,15 @@ document.body.append(criarParagrafo)
 
 
 
+console.group('Lendo parágrafo');
+console.log(("#lendo"));
+
+console.groupEnd();
+
+console.group('Alterando paragrafo');
+$("#lendo").text("Alterei o paragrafo")
+console.log($("#lendo").text());
+
+console.groupEnd();
+
+
